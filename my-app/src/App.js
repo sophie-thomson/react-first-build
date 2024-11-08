@@ -8,6 +8,8 @@ import StatefulGreetingWithCallback from './components/StatefulGreetingWithCallb
 import StatefulGreetingWithPrevState from './components/StatefulGreetingWithPrevState';
 import EventsFunctional from './components/EventsFunctional';
 import EventsClass from './components/EventsClass';
+import ConditionalRenderingClass from './components/ConditionalRenderingClass';
+import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
 
 
 function App() {
@@ -21,6 +23,8 @@ function App() {
       <StatefulGreetingWithPrevState />
       <EventsFunctional />
       <EventsClass />
+      <ConditionalRenderingClass />
+      <ConditionalRenderingFunctional connected={true} />
     </div>
   );
 }
