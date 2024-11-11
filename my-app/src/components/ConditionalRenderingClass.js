@@ -13,6 +13,7 @@ export class ConditionalRenderingClass extends Component {
         return (
         <div>
             <h1>{this.state.isLoaded ? "Data loaded!" : "Loading..."}</h1>
+            {/* Everything in first set of () will be rendered if isLoggedIn = true */}
             {this.state.isLoggedIn ? (
                 <div>
                     <p>Welcome to the site! Please complete the steps below:</p>
@@ -23,6 +24,7 @@ export class ConditionalRenderingClass extends Component {
                     </ol>
                 </div>
             ) : 
+            // Everything in second set of () will be rendered if isLoggedIn = false
             (<p>Please sign in</p>)}
         </div>
         )
