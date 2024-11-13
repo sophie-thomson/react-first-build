@@ -24,8 +24,10 @@ import './App.css';
 // import HooksCounter from "./components/HooksCounter";
 // import ClassCounter from "./components/ClassCounter";
 // import ControlledFormHooks from './components/ControlledFormHooks';
-import UseStateWithArrays from "./components/UseStateWithArrays";
-import UseEffectCounter from "./components/UseEffectCounter";
+// import UseStateWithArrays from "./components/UseStateWithArrays";
+// import UseEffectCounter from "./components/UseEffectCounter";
+// import UseEffectCounterContainer from './components/UseEffectCounterContainer';
+import HTTPRequests from './components/HTTPRequests';
 
 
 function App() {
@@ -54,9 +56,11 @@ function App() {
       <SearchBar3 /> 
       <HooksCounter />
       <ClassCounter /> 
-      <ControlledFormHooks /> */}
+      <ControlledFormHooks /> 
       <UseStateWithArrays />
-      <UseEffectCounter />
+      <UseEffectCounter /> 
+      <UseEffectCounterContainer /> */}
+      <HTTPRequests />
 
     </div>
   );
