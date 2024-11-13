@@ -17,6 +17,7 @@ import './App.css';
 // import LifeCyclesCDU from "./components/LifeCyclesCDU";
 // import LifeCyclesCWU from "./components/LifeCyclesCWU";
 import ControlledForm from "./components/ControlledForm";
+import UncontrolledForm from './components/UncontrolledForm';
 
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
       <LifeCyclesCDU />
       <LifeCyclesCWU /> */}
       <ControlledForm />
+      <UncontrolledForm />
     </div>
   );
 }
