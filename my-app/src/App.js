@@ -20,7 +20,12 @@ import './App.css';
 // import UncontrolledForm from './components/UncontrolledForm';
 // import { SearchBar1 } from './components/SearchBar1';
 // import { SearchBar2 } from './components/SearchBar2';
-import { SearchBar3 } from './components/SearchBar3';
+// import { SearchBar3 } from './components/SearchBar3';
+// import HooksCounter from "./components/HooksCounter";
+// import ClassCounter from "./components/ClassCounter";
+// import ControlledFormHooks from './components/ControlledFormHooks';
+import UseStateWithArrays from "./components/UseStateWithArrays";
+import UseEffectCounter from "./components/UseEffectCounter";
 
 
 function App() {
@@ -45,8 +50,13 @@ function App() {
       <ControlledForm />
       <UncontrolledForm />
       <SearchBar1 /> 
-      <SearchBar2 /> */}
-      <SearchBar3 />
+      <SearchBar2 /> 
+      <SearchBar3 /> 
+      <HooksCounter />
+      <ClassCounter /> 
+      <ControlledFormHooks /> */}
+      <UseStateWithArrays />
+      <UseEffectCounter />
 
     </div>
   );
